@@ -1,3 +1,7 @@
+# before running this run these commands in ansible server
+# aws configure
+# pip3.9 install boto3 botocore
+
 - name: installing server
   ansible.builtin.dnf:
     name: mysql-server
